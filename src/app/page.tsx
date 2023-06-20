@@ -14,7 +14,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section id="landing" className="bg-red-400 w-[100vw] h-[80vh]">
+      <section id="landing" className="bg-red-400 min-w-full h-[100%]">
         <Carousal/>
       </section>
     </main>
