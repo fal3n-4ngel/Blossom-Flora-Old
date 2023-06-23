@@ -26,21 +26,21 @@ export default function Carousal() {
       >
         <SwiperSlide>
           <img
-            style={{ objectFit: "cover", width: "100%", height: "85vh" }}
+            style={{ objectFit: "cover", width: "100%", height: "65vh" ,borderRadius:"25px"}}
             src="/pexels-brigita-korsakiene-7752204.jpg"
             alt="image slide 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            style={{ objectFit: "cover", width: "100%", height: "85vh" }}
+            style={{ objectFit: "cover", width: "100%", height: "65vh",borderRadius:"25px" }}
             src="/pexels-elizaveta-mitenkova-15947013.jpg"
             alt="image slide 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            style={{ objectFit: "cover", width: "100%", height: "85vh" }}
+            style={{ objectFit: "cover", width: "100%", height: "65vh",borderRadius:"25px" }}
             src="/pexels-enes-çelik-7748484.jpg"
             alt="image slide 3"
           />
