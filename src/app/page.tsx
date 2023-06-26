@@ -2,6 +2,7 @@
 import Slider from "@/components/Slider";
 import Catalog from "../components/Catalog";
 import Thumbnails from "@/components/Thumbnails";
+import Collection from "@/components/Collection";
 
 export default function Home() {
   return (
@@ -55,12 +56,14 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="about" className="w-full flex">
+      <section id="about" className="w-full flex mt-8">
         <div className="flex justify-center w-[50%] h-full items-center">
           <Thumbnails />
         </div>
         <div className="flex flex-col items-center w-[50%]">
-          <div className="my-[50px] text-black text-6xl font-caslon">About Us</div>
+          <div className="my-[50px] text-black text-6xl font-caslon">
+            About Us
+          </div>
           <div className=" text-2xl font-light items-center w-[80%] mx-auto">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
@@ -76,7 +79,20 @@ export default function Home() {
       </section>
 
       <section id="collections">
-
+        <div className="mt-[80px] text-center text-black text-6xl font-caslon">
+          Collections
+        </div>
+        <div className="mt-10 w-[80%] flex flex-wrap mx-auto justify-between gap-4">
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
+          
+        </div>
       </section>
     </main>
   );
