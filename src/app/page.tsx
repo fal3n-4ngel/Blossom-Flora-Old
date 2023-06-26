@@ -82,7 +82,7 @@ export default function Home() {
         <div className="mt-[80px] text-center text-black text-6xl font-caslon">
           Collections
         </div>
-        <div className="mt-10 w-[80%] flex flex-wrap mx-auto justify-between gap-4">
+        <div className="mt-10 max-w-[75%] flex flex-wrap mx-auto justify-between gap-6">
           <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
           <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
           <Collection url="/pexels-enes-çelik-7748484.jpg" name="Test" />
