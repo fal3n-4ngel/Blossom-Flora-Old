@@ -29,7 +29,7 @@ export default function Home() {
 
       <section id="catalog" className="mt-12">
         <div className="flex flex-col items-center">
-          <h1 className="text-5xl font-semibold">Best Sellers</h1>
+          <h1 className="text-5xl font-semibold font-caslon">Best Sellers</h1>
           <div className="font-light my-5 text-sm">VIEW ALL</div>
           <div className=" flex w-full  my-10 justify-center gap-10 flex-wrap">
             <Catalog
@@ -60,8 +60,8 @@ export default function Home() {
           <Thumbnails />
         </div>
         <div className="flex flex-col items-center w-[50%]">
-          <div className="my-[50px] text-black text-6xl">About Us</div>
-          <div className=" text-xl font-light items-center w-[80%] mx-auto">
+          <div className="my-[50px] text-black text-6xl font-caslon">About Us</div>
+          <div className=" text-2xl font-light items-center w-[80%] mx-auto">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -73,6 +73,10 @@ export default function Home() {
             PageMaker including versions of Lorem Ipsum.
           </div>
         </div>
+      </section>
+
+      <section id="collections">
+
       </section>
     </main>
   );
